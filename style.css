@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #f0f4f8, #d9e2ec);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+main {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+textarea, input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background: linear-gradient(90deg, #36d1dc, #5b86e5);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.work-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.work-item {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.work-item:hover {
+    background: #e2e8f0;
+}
+
+.work-details {
+    margin-top: 5px;
+    font-size: 0.9em;
+    display: none;
+}

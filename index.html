@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Work Tracker</h1>
+    </header>
+
+    <main>
+        <div class="input-container">
+            <p>Date: <span id="currentDate"></span></p>
+            <label for="work">Work Done:</label>
+            <textarea id="work" placeholder="Describe the work done..." required></textarea>
+
+            <label for="people">Number of People Present:</label>
+            <input type="number" id="people" min="0" placeholder="0" required>
+
+            <button id="saveBtn">Save</button>
+        </div>
+
+        <h2>Saved Work Entries</h2>
+        <div id="workList" class="work-list"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
